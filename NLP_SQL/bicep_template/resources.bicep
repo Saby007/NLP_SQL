@@ -10,8 +10,8 @@ resource sqlServer 'Microsoft.Sql/servers@2022-11-01-preview' = {
   name: sqlServerName
   location: location
   properties: {
-    administratorLogin: 'saby' // Set the administrator login for the SQL Server
-    administratorLoginPassword: 'P@$$w0rd' // Set the administrator login password for the SQL Server
+    administratorLogin: '<admin name>' // Set the administrator login for the SQL Server
+    administratorLoginPassword: '<password>' // Set the administrator login password for the SQL Server
   }
 }
 
